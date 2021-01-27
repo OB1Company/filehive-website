@@ -38,7 +38,7 @@ export default class Index extends React.Component {
                 <div style={{position: "absolute", left: -5000}} aria-hidden="true">
                   <input type="text" name="b_276c2ca4d5d98f505a6195eff_f0ee69b20c" tabIndex="-1" value=""/>
                 </div>
-                <div className={styles.button} onClick="this.submit();">Join waitlist!</div>
+                <div className={styles.button} onClick={() => { this.submit() }}>Join waitlist!</div>
               </form>
 
             </div>
