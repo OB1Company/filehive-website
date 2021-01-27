@@ -21,6 +21,7 @@ export default class Index extends React.Component {
           <title>Filehive - A dataset marketplace for Filecoin</title>
           <link rel="icon" href="/favicon.ico" />
           <meta name="theme-color" content="#F7A80F" />
+          <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/276c2ca4d5d98f505a6195eff/98cac9dabc10550d9680e073b.js");</script>
         </Head>
 
         <div className={styles.header}>
