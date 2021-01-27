@@ -33,12 +33,11 @@ export default class Index extends React.Component {
             <h1>A dataset marketplace for Filecoin</h1>
             <h2>Data has quickly become the world's most in demand resource. It's the fuel for the AI and machine learning applications of the future. Filehive makes it easy to buy and sell curated datasets.</h2>
             <div className={styles.waitlist}>
-
-
               <form action="https://app.us7.list-manage.com/subscribe/post?u=276c2ca4d5d98f505a6195eff&amp;id=f0ee69b20c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <input className={styles.input} type="text" placeholder="E-mail address" ref={(input) => { this.textInput = input; }}  />
+                <input className={styles.input} type="email" placeholder="Email address" ref={(input) => { this.textInput = input; }} required />
+                <div className={styles.button} onClick="this.submit();">Join waitlist!</div>
               </form>
-              <div className={styles.button} onClick="this.submit();">Join waitlist!</div>
+
             </div>
           </div>
 
