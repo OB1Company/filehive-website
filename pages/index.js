@@ -35,7 +35,7 @@ export default class Index extends React.Component {
             <div className={styles.waitlist}>
               <form action="https://app.us7.list-manage.com/subscribe/post?u=276c2ca4d5d98f505a6195eff&amp;id=f0ee69b20c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <input className={styles.input} name="EMAIL" type="email" placeholder="Email address" ref={(input) => { this.textInput = input; }} required />
-                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <div style={{position: "absolute", left: -5000}} aria-hidden="true">
                   <input type="text" name="b_276c2ca4d5d98f505a6195eff_f0ee69b20c" tabIndex="-1" value=""/>
                 </div>
                 <button className={styles.button} onClick="this.submit();">Join waitlist!</button>
